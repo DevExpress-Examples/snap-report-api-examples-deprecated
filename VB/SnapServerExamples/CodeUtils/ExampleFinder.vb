@@ -117,7 +117,7 @@ Namespace SnapServerExamples.CodeUtils
 
         Protected Overrides Function DeleteLeadingWhiteSpacesFromSourceCode(ByVal lines() As String) As String()
             Dim result() As String = MyBase.DeleteLeadingWhiteSpacesFromSourceCode(lines)
-            Return CodeExampleDemoUtils.DeleteLeadingWhiteSpaces(result, ControlChars.Tab & ControlChars.Tab)
+            Return CodeExampleDemoUtils.DeleteLeadingWhiteSpaces(result, vbTab & vbTab)
         End Function
         Protected Overrides Function ValidateRegionName(ByVal lines() As String, ByRef regionName As String) As Boolean
             Dim result As Boolean = MyBase.ValidateRegionName(lines, regionName)

@@ -34,13 +34,13 @@
             Me.reportExplorerDockPanel1_Container = New DevExpress.XtraBars.Docking.ControlContainer()
             Me.snapDocumentManager1 = New DevExpress.Snap.Extensions.SnapDocumentManager(Me.components)
             Me.noDocumentsView1 = New DevExpress.XtraBars.Docking2010.Views.NoDocuments.NoDocumentsView(Me.components)
-            DirectCast(Me.nWindDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.nWindDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.panelContainer1.SuspendLayout()
             Me.fieldListDockPanel1.SuspendLayout()
             Me.reportExplorerDockPanel1.SuspendLayout()
-            DirectCast(Me.snapDocumentManager1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.noDocumentsView1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.snapDocumentManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.noDocumentsView1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' ResultSnapControl2
@@ -122,13 +122,13 @@
             Me.Controls.Add(Me.panelContainer1)
             Me.Name = "ResultForm"
             Me.Size = New System.Drawing.Size(569, 523)
-            DirectCast(Me.nWindDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.nWindDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.panelContainer1.ResumeLayout(False)
             Me.fieldListDockPanel1.ResumeLayout(False)
             Me.reportExplorerDockPanel1.ResumeLayout(False)
-            DirectCast(Me.snapDocumentManager1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.noDocumentsView1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.snapDocumentManager1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.noDocumentsView1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
 
         End Sub

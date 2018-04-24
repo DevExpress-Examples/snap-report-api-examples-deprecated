@@ -35,16 +35,16 @@
             Me.richEditControlVB = New DevExpress.XtraRichEdit.RichEditControl()
             Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
             Me.snapDockManager1 = New DevExpress.Snap.Extensions.SnapDockManager(Me.components)
-            DirectCast(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.splitContainerControl1.SuspendLayout()
-            DirectCast(Me.treeList1, System.ComponentModel.ISupportInitialize).BeginInit()
-            DirectCast(Me.splitContainerControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.treeList1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.splitContainerControl2, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.splitContainerControl2.SuspendLayout()
-            DirectCast(Me.xtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.xtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.xtraTabControl1.SuspendLayout()
             Me.xtraTabPage1.SuspendLayout()
             Me.xtraTabPage2.SuspendLayout()
-            DirectCast(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' splitContainerControl1
@@ -131,7 +131,7 @@
             ' 
             ' simpleButton1
             ' 
-            Me.simpleButton1.Image = (DirectCast(resources.GetObject("simpleButton1.Image"), System.Drawing.Image))
+            Me.simpleButton1.Image = (CType(resources.GetObject("simpleButton1.Image"), System.Drawing.Image))
             Me.simpleButton1.Location = New System.Drawing.Point(1, 10)
             Me.simpleButton1.Name = "simpleButton1"
             Me.simpleButton1.Size = New System.Drawing.Size(191, 41)
@@ -152,16 +152,16 @@
             Me.Controls.Add(Me.splitContainerControl1)
             Me.Name = "Form1"
             Me.Text = "Snap Document Server Examples"
-            DirectCast(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.splitContainerControl1.ResumeLayout(False)
-            DirectCast(Me.treeList1, System.ComponentModel.ISupportInitialize).EndInit()
-            DirectCast(Me.splitContainerControl2, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.treeList1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.splitContainerControl2, System.ComponentModel.ISupportInitialize).EndInit()
             Me.splitContainerControl2.ResumeLayout(False)
-            DirectCast(Me.xtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.xtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.xtraTabControl1.ResumeLayout(False)
             Me.xtraTabPage1.ResumeLayout(False)
             Me.xtraTabPage2.ResumeLayout(False)
-            DirectCast(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
 
         End Sub
