@@ -7,7 +7,7 @@ This example demonstrates how to use the <a href="https://documentation.devexpr
 * group, sort and filter Snap list data;
 * add visual data (sparkline, bar code, check box, etc.).<br>
 <p>For more information, review the Examples section in the documentation.</p>
-<p>To use this example in production code, the<strong> Universal Subscription</strong> or an additional <strong>Document Server Subscription</strong> is required.</p>
+<p>To use this example in production code, the<strong> Universal Subscription</strong> or an additional <strong>Office File API Subscription</strong> is required.</p>
 
 <br/>
 
