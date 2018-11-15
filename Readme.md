@@ -1,3 +1,9 @@
+<!-- default file list -->
+*Files to look at*:
+
+* [DataShapingActions.cs](./CS/SnapServerExamples/CodeExamples/DataShapingActions.cs) (VB: [DataShapingActions.vb](./VB/SnapServerExamples/CodeExamples/DataShapingActions.vb))
+* [DataVisualizationToolsActions.cs](./CS/SnapServerExamples/CodeExamples/DataVisualizationToolsActions.cs) (VB: [DataVisualizationToolsActions.vb](./VB/SnapServerExamples/CodeExamples/DataVisualizationToolsActions.vb))
+<!-- default file list end -->
 # Snap Report API Examples
 
 
