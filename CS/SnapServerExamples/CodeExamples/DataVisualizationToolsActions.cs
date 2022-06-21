@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DevExpress.Portable;
 
 namespace SnapServerExamples.CodeExamples
 {
@@ -61,7 +62,7 @@ namespace SnapServerExamples.CodeExamples
             SnapCheckBox checkbox = server.Document.CreateSnCheckBox(server.Document.Range.Start, "Discontinued");
             server.Document.ParseField(checkbox.Field);
             checkbox.BeginUpdate();
-            checkbox.State = System.Windows.Forms.CheckState.Checked;
+            checkbox.State = PortableCheckState.Checked;
             checkbox.EndUpdate();
             checkbox.Field.Update();
             #endregion #CreateCheckBox
