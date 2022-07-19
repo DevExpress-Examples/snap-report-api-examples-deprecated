@@ -1,4 +1,5 @@
-﻿using DevExpress.Snap;
+﻿using DevExpress.Portable;
+using DevExpress.Snap;
 using DevExpress.Snap.Core.API;
 using DevExpress.Sparkline;
 using DevExpress.XtraPrinting.BarCode;
@@ -61,7 +62,7 @@ namespace SnapServerExamples.CodeExamples
             SnapCheckBox checkbox = server.Document.CreateSnCheckBox(server.Document.Range.Start, "Discontinued");
             server.Document.ParseField(checkbox.Field);
             checkbox.BeginUpdate();
-            checkbox.State = System.Windows.Forms.CheckState.Checked;
+            checkbox.State = PortableCheckState.Checked;
             checkbox.EndUpdate();
             checkbox.Field.Update();
             #endregion #CreateCheckBox
