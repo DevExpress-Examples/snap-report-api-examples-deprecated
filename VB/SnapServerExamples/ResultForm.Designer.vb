@@ -1,5 +1,7 @@
-﻿Namespace SnapServerExamples
-    Partial Public Class ResultForm
+Namespace SnapServerExamples
+
+    Partial Class ResultForm
+
         ''' <summary> 
         ''' Required designer variable.
         ''' </summary>
@@ -10,14 +12,14 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Component Designer generated code"
-
+#Region "Component Designer generated code"
         ''' <summary> 
         ''' Required method for Designer support - do not modify 
         ''' the contents of this method with the code editor.
@@ -34,13 +36,13 @@
             Me.reportExplorerDockPanel1_Container = New DevExpress.XtraBars.Docking.ControlContainer()
             Me.snapDocumentManager1 = New DevExpress.Snap.Extensions.SnapDocumentManager(Me.components)
             Me.noDocumentsView1 = New DevExpress.XtraBars.Docking2010.Views.NoDocuments.NoDocumentsView(Me.components)
-            CType(Me.nWindDataSetBindingSource, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.nWindDataSetBindingSource), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.snapDockManager1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.panelContainer1.SuspendLayout()
             Me.fieldListDockPanel1.SuspendLayout()
             Me.reportExplorerDockPanel1.SuspendLayout()
-            CType(Me.snapDocumentManager1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.noDocumentsView1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.snapDocumentManager1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.noDocumentsView1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' ResultSnapControl2
@@ -56,9 +58,9 @@
             ' snapDockManager1
             ' 
             Me.snapDockManager1.Form = Me
-            Me.snapDockManager1.RootPanels.AddRange(New DevExpress.XtraBars.Docking.DockPanel() { Me.panelContainer1})
+            Me.snapDockManager1.RootPanels.AddRange(New DevExpress.XtraBars.Docking.DockPanel() {Me.panelContainer1})
             Me.snapDockManager1.SnapControl = Me.ResultSnapControl2
-            Me.snapDockManager1.TopZIndexControls.AddRange(New String() { "DevExpress.XtraBars.BarDockControl", "DevExpress.XtraBars.StandaloneBarDockControl", "System.Windows.Forms.StatusBar", "System.Windows.Forms.MenuStrip", "System.Windows.Forms.StatusStrip", "DevExpress.XtraBars.Ribbon.RibbonStatusBar", "DevExpress.XtraBars.Ribbon.RibbonControl", "DevExpress.XtraBars.Navigation.OfficeNavigationBar", "DevExpress.XtraBars.Navigation.TileNavPane", "DevExpress.XtraBars.TabFormControl"})
+            Me.snapDockManager1.TopZIndexControls.AddRange(New String() {"DevExpress.XtraBars.BarDockControl", "DevExpress.XtraBars.StandaloneBarDockControl", "System.Windows.Forms.StatusBar", "System.Windows.Forms.MenuStrip", "System.Windows.Forms.StatusStrip", "DevExpress.XtraBars.Ribbon.RibbonStatusBar", "DevExpress.XtraBars.Ribbon.RibbonControl", "DevExpress.XtraBars.Navigation.OfficeNavigationBar", "DevExpress.XtraBars.Navigation.TileNavPane", "DevExpress.XtraBars.TabFormControl"})
             ' 
             ' panelContainer1
             ' 
@@ -112,7 +114,7 @@
             ' 
             Me.snapDocumentManager1.ClientControl = Me.ResultSnapControl2
             Me.snapDocumentManager1.View = Me.noDocumentsView1
-            Me.snapDocumentManager1.ViewCollection.AddRange(New DevExpress.XtraBars.Docking2010.Views.BaseView() { Me.noDocumentsView1})
+            Me.snapDocumentManager1.ViewCollection.AddRange(New DevExpress.XtraBars.Docking2010.Views.BaseView() {Me.noDocumentsView1})
             ' 
             ' ResultForm
             ' 
@@ -122,27 +124,33 @@
             Me.Controls.Add(Me.panelContainer1)
             Me.Name = "ResultForm"
             Me.Size = New System.Drawing.Size(569, 523)
-            CType(Me.nWindDataSetBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.nWindDataSetBindingSource), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.snapDockManager1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.panelContainer1.ResumeLayout(False)
             Me.fieldListDockPanel1.ResumeLayout(False)
             Me.reportExplorerDockPanel1.ResumeLayout(False)
-            CType(Me.snapDocumentManager1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.noDocumentsView1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.snapDocumentManager1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.noDocumentsView1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+#End Region
         Private ResultSnapControl2 As DevExpress.Snap.SnapControl
+
         Private snapDockManager1 As DevExpress.Snap.Extensions.SnapDockManager
+
         Private panelContainer1 As DevExpress.XtraBars.Docking.DockPanel
+
         Private fieldListDockPanel1 As DevExpress.Snap.Extensions.UI.FieldListDockPanel
+
         Private fieldListDockPanel1_Container As DevExpress.XtraBars.Docking.ControlContainer
+
         Private reportExplorerDockPanel1 As DevExpress.Snap.Extensions.UI.ReportExplorerDockPanel
+
         Private reportExplorerDockPanel1_Container As DevExpress.XtraBars.Docking.ControlContainer
+
         Private snapDocumentManager1 As DevExpress.Snap.Extensions.SnapDocumentManager
+
         Private noDocumentsView1 As DevExpress.XtraBars.Docking2010.Views.NoDocuments.NoDocumentsView
 
         Private nWindDataSetBindingSource As System.Windows.Forms.BindingSource
