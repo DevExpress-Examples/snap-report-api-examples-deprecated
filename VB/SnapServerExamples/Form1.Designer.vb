@@ -1,5 +1,7 @@
-﻿Namespace SnapServerExamples
-    Partial Public Class Form1
+Namespace SnapServerExamples
+
+    Partial Class Form1
+
         ''' <summary>
         ''' Required designer variable.
         ''' </summary>
@@ -10,21 +12,21 @@
         ''' </summary>
         ''' <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         Protected Overrides Sub Dispose(ByVal disposing As Boolean)
-            If disposing AndAlso (components IsNot Nothing) Then
-                components.Dispose()
+            If disposing AndAlso (Me.components IsNot Nothing) Then
+                Me.components.Dispose()
             End If
+
             MyBase.Dispose(disposing)
         End Sub
 
-        #Region "Windows Form Designer generated code"
-
+#Region "Windows Form Designer generated code"
         ''' <summary>
         ''' Required method for Designer support - do not modify
         ''' the contents of this method with the code editor.
         ''' </summary>
         Private Sub InitializeComponent()
             Me.components = New System.ComponentModel.Container()
-            Dim resources As New System.ComponentModel.ComponentResourceManager(GetType(Form1))
+            Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(SnapServerExamples.Form1))
             Me.splitContainerControl1 = New DevExpress.XtraEditors.SplitContainerControl()
             Me.treeList1 = New DevExpress.XtraTreeList.TreeList()
             Me.splitContainerControl2 = New DevExpress.XtraEditors.SplitContainerControl()
@@ -35,16 +37,16 @@
             Me.richEditControlVB = New DevExpress.XtraRichEdit.RichEditControl()
             Me.simpleButton1 = New DevExpress.XtraEditors.SimpleButton()
             Me.snapDockManager1 = New DevExpress.Snap.Extensions.SnapDockManager(Me.components)
-            CType(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.splitContainerControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.splitContainerControl1.SuspendLayout()
-            CType(Me.treeList1, System.ComponentModel.ISupportInitialize).BeginInit()
-            CType(Me.splitContainerControl2, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.treeList1), System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.splitContainerControl2), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.splitContainerControl2.SuspendLayout()
-            CType(Me.xtraTabControl1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.xtraTabControl1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.xtraTabControl1.SuspendLayout()
             Me.xtraTabPage1.SuspendLayout()
             Me.xtraTabPage2.SuspendLayout()
-            CType(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).BeginInit()
+            CType((Me.snapDockManager1), System.ComponentModel.ISupportInitialize).BeginInit()
             Me.SuspendLayout()
             ' 
             ' splitContainerControl1
@@ -87,13 +89,13 @@
             ' xtraTabControl1
             ' 
             Me.xtraTabControl1.Dock = System.Windows.Forms.DockStyle.Fill
-            Me.xtraTabControl1.HeaderAutoFill = DevExpress.Utils.DefaultBoolean.True
+            Me.xtraTabControl1.HeaderAutoFill = DevExpress.Utils.DefaultBoolean.[True]
             Me.xtraTabControl1.Location = New System.Drawing.Point(0, 0)
             Me.xtraTabControl1.Name = "xtraTabControl1"
             Me.xtraTabControl1.SelectedTabPage = Me.xtraTabPage1
             Me.xtraTabControl1.Size = New System.Drawing.Size(884, 547)
             Me.xtraTabControl1.TabIndex = 0
-            Me.xtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() { Me.xtraTabPage1, Me.xtraTabPage2})
+            Me.xtraTabControl1.TabPages.AddRange(New DevExpress.XtraTab.XtraTabPage() {Me.xtraTabPage1, Me.xtraTabPage2})
             ' 
             ' xtraTabPage1
             ' 
@@ -131,7 +133,7 @@
             ' 
             ' simpleButton1
             ' 
-            Me.simpleButton1.Image = (CType(resources.GetObject("simpleButton1.Image"), System.Drawing.Image))
+            Me.simpleButton1.Image = CType((resources.GetObject("simpleButton1.Image")), System.Drawing.Image)
             Me.simpleButton1.Location = New System.Drawing.Point(1, 10)
             Me.simpleButton1.Name = "simpleButton1"
             Me.simpleButton1.Size = New System.Drawing.Size(191, 41)
@@ -142,7 +144,7 @@
             ' 
             Me.snapDockManager1.Form = Me
             Me.snapDockManager1.SnapControl = Nothing
-            Me.snapDockManager1.TopZIndexControls.AddRange(New String() { "DevExpress.XtraBars.BarDockControl", "DevExpress.XtraBars.StandaloneBarDockControl", "System.Windows.Forms.StatusBar", "System.Windows.Forms.MenuStrip", "System.Windows.Forms.StatusStrip", "DevExpress.XtraBars.Ribbon.RibbonStatusBar", "DevExpress.XtraBars.Ribbon.RibbonControl", "DevExpress.XtraBars.Navigation.OfficeNavigationBar", "DevExpress.XtraBars.Navigation.TileNavPane", "DevExpress.XtraBars.TabFormControl"})
+            Me.snapDockManager1.TopZIndexControls.AddRange(New String() {"DevExpress.XtraBars.BarDockControl", "DevExpress.XtraBars.StandaloneBarDockControl", "System.Windows.Forms.StatusBar", "System.Windows.Forms.MenuStrip", "System.Windows.Forms.StatusStrip", "DevExpress.XtraBars.Ribbon.RibbonStatusBar", "DevExpress.XtraBars.Ribbon.RibbonControl", "DevExpress.XtraBars.Navigation.OfficeNavigationBar", "DevExpress.XtraBars.Navigation.TileNavPane", "DevExpress.XtraBars.TabFormControl"})
             ' 
             ' Form1
             ' 
@@ -152,32 +154,38 @@
             Me.Controls.Add(Me.splitContainerControl1)
             Me.Name = "Form1"
             Me.Text = "Snap Document Server Examples"
-            CType(Me.splitContainerControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.splitContainerControl1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.splitContainerControl1.ResumeLayout(False)
-            CType(Me.treeList1, System.ComponentModel.ISupportInitialize).EndInit()
-            CType(Me.splitContainerControl2, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.treeList1), System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.splitContainerControl2), System.ComponentModel.ISupportInitialize).EndInit()
             Me.splitContainerControl2.ResumeLayout(False)
-            CType(Me.xtraTabControl1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.xtraTabControl1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.xtraTabControl1.ResumeLayout(False)
             Me.xtraTabPage1.ResumeLayout(False)
             Me.xtraTabPage2.ResumeLayout(False)
-            CType(Me.snapDockManager1, System.ComponentModel.ISupportInitialize).EndInit()
+            CType((Me.snapDockManager1), System.ComponentModel.ISupportInitialize).EndInit()
             Me.ResumeLayout(False)
-
         End Sub
 
-        #End Region
-
+#End Region
         Private splitContainerControl1 As DevExpress.XtraEditors.SplitContainerControl
+
         Private treeList1 As DevExpress.XtraTreeList.TreeList
+
         Private splitContainerControl2 As DevExpress.XtraEditors.SplitContainerControl
+
         Private xtraTabControl1 As DevExpress.XtraTab.XtraTabControl
+
         Private xtraTabPage1 As DevExpress.XtraTab.XtraTabPage
+
         Private richEditControlCS As DevExpress.XtraRichEdit.RichEditControl
+
         Private xtraTabPage2 As DevExpress.XtraTab.XtraTabPage
+
         Private richEditControlVB As DevExpress.XtraRichEdit.RichEditControl
+
         Private snapDockManager1 As DevExpress.Snap.Extensions.SnapDockManager
+
         Private simpleButton1 As DevExpress.XtraEditors.SimpleButton
     End Class
 End Namespace
-
