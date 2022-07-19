@@ -148,6 +148,7 @@ namespace SnapServerExamples.CodeUtils
             "using DevExpress.Data;\r\n" +
       "using DevExpress.XtraPrinting;\r\n" +
       "using DevExpress.XtraRichEdit;\r\n" +
+      "using DevExpress.Portable;\r\n" +
       "using DevExpress.XtraRichEdit.API.Native;\r\n" +
       "using DevExpress.Snap;\r\n" +
       "using DevExpress.Snap.Core.API;\r\n" +
